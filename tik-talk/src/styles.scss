@@ -1,0 +1,125 @@
+@import "fonts";
+
+:root {
+    --dark-color: #000000;
+    --light-color: #FFFFFF;
+    --primary-color: #AE7AFF;
+}
+
+body {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/assets/imgs/background.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100dvh;
+}
+
+.skill-tag {
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--light-color);
+    display: inline;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 4px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 24px;
+    width: max-content;
+}
+
+.btn {
+    border: none;
+    background: var(--primary-color);
+    color: var(--dark-color);
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+}
+.h1 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 800;
+}
+.h4 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+}
+
+.h6 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 800;
+}
+
+.regular {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.tt-control-label {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+}
+
+.tt-input {
+    
+    margin-top: 8px;
+    display: block;
+    border: 1px solid var(--light-color);
+    border-radius: 4px;
+    padding: 12px 30px 12px 20px;
+    background: var(--dark-color);
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--light-color);
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+.mb-32 {
+    margin-bottom: 32px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.ml-16 {
+    margin-left: 16px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-4 {
+    margin-bottom: 4px;
+}
+
+.tt-form-input {
+
+}
+
+.tt-form-label {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}

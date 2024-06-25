@@ -1,0 +1,80 @@
+:host {
+    display: block;
+    padding: 20px 12px;
+    position: relative;
+}
+
+.main-menu-list {
+    display: grid;
+    grid-gap: 8px;
+    list-style: none;
+    padding: 0px;
+}
+
+.menu-item {
+    padding: 16px 12px;
+    display: grid;
+    grid-gap: 12px;
+    width: 100%;
+    text-align: left;
+    grid-template-columns: 16px 1fr max-content;
+    color: var(--light-color);
+    cursor: pointer;
+    border: none;
+    background: none;
+    border-radius: 5px;
+    &:hover, &:focus-visible {
+        background: #323030;
+        color:  #AE7AFF;
+    }
+}
+.menu-item:hover path {
+    fill: #AE7AFF;
+}
+
+.medium-text {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.to-subscribes {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.to-subscribes:hover .to-subscribes-link, .to-subscribes:hover path{
+    color: #AE7AFF;
+    fill: #AE7AFF;
+    
+}
+
+.to-subscribes-link {
+    color: var(--light-color);
+    text-decoration: none;
+}
+
+.sidebar__footer {
+    position: absolute;
+    bottom: 20px;
+    border-radius: 2px;
+    padding: 4px 16px;
+    display: grid;
+    grid-template-columns: 32px 1fr 16px;
+    grid-gap: 12px;
+    align-items: center;
+    width: calc(100% - 60px);
+}
+
+.sidebar__footer img {
+width: 32px;
+height: 32px;
+border-radius: 50%;
+
+}
+
+.username-text {
+    font-weight: 700;
+    color:#AE7AFF;
+}

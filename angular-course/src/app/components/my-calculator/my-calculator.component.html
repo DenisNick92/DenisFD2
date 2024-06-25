@@ -1,0 +1,10 @@
+<p>my-calculator works!</p>
+<div class="calculator">
+<input type="number" class="calculator__input" [(ngModel)]="first">
+<select class="claculator__select">
+    <option [value]="operation" *ngFor="let operation of operations">{{operation}}</option>
+</select>
+<input type="number" class="calculator__input" [(ngModel)]="second">
+<span class="calculator__result">{{ result ? result : "Расчет" }}</span>
+<button (click)="calc()">Расчет</button>
+</div> 
