@@ -1,7 +1,8 @@
-import { Component, input, Input } from '@angular/core';
+import { Component, Input} from '@angular/core';
 import { Profile } from '../../data/Interfaces/profile.interface';
 import { ImgUrlPipe } from '../../helpers/pipes/img-url.pipe';
 import { CommonModule } from '@angular/common';
+
 
 
 @Component({
